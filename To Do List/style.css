@@ -1,0 +1,91 @@
+body{ 
+    
+    background-color: #a45ee5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .todo-container{
+    background: #03c04a;
+    font-family: cursive;
+    width: 500px;
+    margin: 0 auto;
+    border: 2px solid darkgreen;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  
+  #input-box{
+    width: 200px;
+    padding: 10px;
+    border: 3px solid rgb(255, 185, 7);
+    border-radius: 5px;
+    margin-right: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 20px;
+  }
+   
+  #input-button{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:lightpink;
+  }
+  
+  
+  
+  hr{
+    border: 1px solid black;
+  }
+  
+  #header{
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  h1{
+    margin-bottom: 20px; 
+  }
+ #input-button:hover {
+    background-color: #9eb7fd; 
+  } 
+  
+  ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align:left;
+  }
+  
+  li {
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .edit-btn, .delete-btn, .complete-btn{
+    float: right;
+    color:crimson;
+    cursor: pointer;
+    margin: 3px 5px;
+    border: none;
+    padding: 3px 5px;
+    background: none;  
+  } 
+  
+ .completed {
+    text-decoration: line-through;
+    color: gray;
+    border: 1px solid gray;
+  }
+
